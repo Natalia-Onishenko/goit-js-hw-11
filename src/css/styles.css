@@ -58,3 +58,18 @@ form button {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  /* спочатку прихований */
+  z-index: 999;
+}
